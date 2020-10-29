@@ -10,3 +10,5 @@ RTL assignment where you need to scrape TVMaze, persist the data in a storage an
 4. Run the migrations
 5. Run the `Scraper` console project once for scraping TVMaze (I only scrape the top 250 shows)
 6. Run the `WebApi` project
+<br><br><br>
+![Diagram](diagram.png)
