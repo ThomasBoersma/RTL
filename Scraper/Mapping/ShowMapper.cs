@@ -1,5 +1,4 @@
-﻿using System;
-using AutoMapper;
+﻿using AutoMapper;
 using Scraper.Models;
 
 namespace Scraper.Mapping

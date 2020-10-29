@@ -1,5 +1,4 @@
-﻿using System;
-namespace Domain.Repositories
+﻿namespace Domain.Repositories
 {
     public abstract class Repository
     {

@@ -2,7 +2,6 @@
 using Domain.Repositories;
 using AutoMapper;
 using Scraper.Models;
-using Scraper.Mapping;
 using Microsoft.Extensions.Configuration;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -63,7 +62,7 @@ namespace Scraper
                     Show show = shows[i];
 
                     var roles = await GetShowRolesAsync(show.Id);
-                    show.Cast = roles.Select(x => x.person).ToList();
+                    show.Cast = roles.Select(x => x.Person).ToList();
 
                     await showRepository.AddAsync(mapper.Map<Domain.Models.Show>(show));
 

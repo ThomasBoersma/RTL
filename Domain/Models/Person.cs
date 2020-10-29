@@ -1,6 +1,4 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations.Schema;
-using Domain.Models;
 
 namespace Domain.Models
 {

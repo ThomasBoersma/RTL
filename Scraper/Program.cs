@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Linq;
-using System.Collections.Generic;
 using AutoMapper;
-using Scraper.Models;
 using Domain;
-using Domain.Repositories;
 using System.IO;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Configuration.Binder;
-using Microsoft.Extensions.Configuration.Json;
 using Microsoft.Extensions.DependencyInjection;
 using Scraper.Mapping;
 

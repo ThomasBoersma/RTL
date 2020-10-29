@@ -1,8 +1,7 @@
-﻿using System;
-namespace Scraper.Models
+﻿namespace Scraper.Models
 {
     public class Role
     {
-        public Person person { get; set; }
+        public Person Person { get; set; }
     }
 }

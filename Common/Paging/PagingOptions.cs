@@ -1,5 +1,4 @@
-﻿using System;
-namespace Common.Paging
+﻿namespace Common.Paging
 {
     public class PagingOptions
     {
