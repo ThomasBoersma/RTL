@@ -15,6 +15,8 @@ namespace Scraper
         {
             var serviceProvider = ConfigureServices().BuildServiceProvider();
 
+            Configure(serviceProvider);
+
             var scraper = serviceProvider.GetService<Scraper>();
 
             scraper.Start();
@@ -32,6 +34,11 @@ namespace Scraper
             Startup.ConfigureServices(serviceCollection, configuration);
 
             return serviceCollection;
+        }
+
+        private static void Configure(IServiceProvider serviceProvider)
+        {
+            Startup.Configure(serviceProvider);
         }
 
         public static IConfiguration LoadConfiguration()
