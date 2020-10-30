@@ -8,6 +8,6 @@ namespace Services.Models
 
         public string Name { get; set; }
 
-        public ICollection<PersonDto> Cast { get; set; }
+        public IList<PersonDto> Cast { get; set; }
     }
 }
